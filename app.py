@@ -8,7 +8,7 @@ from PIL import Image
 import pickle
 
 # Load and preprocess the dataset
-dataset = pd.read_csv(r"C:\Users\mario\Documents\ICBP\datasets\general.csv")
+dataset = pd.read_csv('datasets/general.csv")
 X = dataset.drop('Disease', axis=1)
 y = dataset['Disease']
 scaler = StandardScaler()
