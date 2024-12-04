@@ -4,4 +4,4 @@ pandas
 numpy
 matplotlib
 streamlit
-streamlit-option-menuste
+streamlit-option-menu
